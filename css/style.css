@@ -45,8 +45,8 @@ body {
 }
 
 .my-photo {
-  margin-left: 20px;
-  width: 260px;
+  margin-left: 40px;
+  width: 220px;
   height: 300px;
   /* border-radius: 50%; */
   border-radius: 4px 4px 4px 4px;
@@ -174,10 +174,6 @@ body {
   color: white;
   /* background-color: var(--bg-title-color); */
   background-image: var(--linear-gradient);
-}
-
-.projects-list {
-  /* list-style: none; */
 }
 
 .projects-link {
