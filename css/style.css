@@ -208,6 +208,7 @@ body {
 }
 
 .projects-description {
+  font-size: 16px;
   margin-top: 10px;
   font-weight: 400;
   color: var(--text-color);
