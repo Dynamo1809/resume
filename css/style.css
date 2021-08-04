@@ -1,0 +1,292 @@
+:root {
+  --bg-title-color: #4169e1;
+  --profession-company-color: #ff8a3d;
+  --text-color: #595959;
+  --primary-font: Garamond;
+  --sidebar-margin: 20px;
+  --linear-gradient: repeating-linear-gradient(
+    -45deg,
+    #606dbc,
+    #606dbc 10px,
+    #465298 10px,
+    #465298 20px
+  );
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-font), sans-serif;
+  background: #f5f7fa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.wrapper {
+  background: #ffffffda;
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+  /* background: #b3bac4; */
+  background-color: #606dbc;
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.my-photo {
+  margin-left: 20px;
+  width: 260px;
+  height: 300px;
+  /* border-radius: 50%; */
+  border-radius: 4px 4px 4px 4px;
+}
+
+.about-me-container {
+  max-width: 700px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.container-with-svg {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-svg {
+  margin-right: 10px;
+  text-align: center;
+  /* fill: currentColor; */
+  fill: var(--profession-company-color);
+}
+
+.contacts-container {
+  margin-top: var(--sidebar-margin);
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.contacts-title {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  /* background-color: var(--bg-title-color); */
+  background-image: var(--linear-gradient);
+}
+
+.contacts-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  /* color: #525b67; */
+  color: #ffffff;
+}
+
+.contacts-link-type {
+  /* display: flex; */
+  /* align-items: center; */
+
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+}
+/*            TECH SKILLS             */
+.tech-skills-title {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  /* background-color: var(--bg-title-color); */
+  background-image: var(--linear-gradient);
+}
+
+.tech-skills-container {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: var(--sidebar-margin);
+}
+
+.tech-skills-item {
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--profession-company-color);
+}
+
+.tech-skills-text {
+  color: #ffffff;
+}
+
+.profession {
+  /* margin-bottom: 5px; */
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--profession-company-color);
+}
+
+.name {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.descriptiont {
+  margin-top: 34px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.info-container {
+  margin-bottom: 34px;
+}
+
+.about-me-title {
+  /* max-width: 500px; */
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25px;
+  color: white;
+  /* background-color: var(--bg-title-color); */
+  background-image: var(--linear-gradient);
+}
+
+.projects-list {
+  /* list-style: none; */
+}
+
+.projects-link {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.tech-name {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.dots {
+  color: #dddddd;
+  font-weight: 100;
+}
+
+.projects-item {
+  margin-left: 17px;
+
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--profession-company-color);
+}
+
+.projects-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.projects-description {
+  margin-top: 10px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.projects-container {
+  margin-bottom: 30px;
+}
+
+.profession-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  /* margin-top: 10px; */
+  /* margin-bottom: 15px; */
+}
+
+.profession-company {
+  color: var(--profession-company-color);
+}
+
+.profession-time {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+
+.profession-divider {
+  color: #000;
+}
+
+.profession-duties {
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
+
+.profession-duties-icon {
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  /* color: #595959; */
+  color: var(--profession-company-color);
+}
+
+.profession-duties-text {
+  color: #595959;
+}
+
+/*       Educations       */
+
+.education-container {
+  margin-bottom: 30px;
+}
+
+.education-title {
+  /* max-width: 500px; */
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  /* background-color: var(--bg-title-color); */
+  background-image: var(--linear-gradient);
+}
+
+.education-specialty {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 10px;
+}
