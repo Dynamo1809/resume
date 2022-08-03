@@ -5,6 +5,7 @@
   --text-color: #595959;
   --primary-font: Garamond;
   --sidebar-margin: 20px;
+  --main-margin: 25px;
   --linear-gradient: repeating-linear-gradient(
     -45deg,
     #606dbc,
@@ -62,10 +63,10 @@ body {
 .about-me-container {
   background-color: #fff;
   max-width: 700px;
-  padding-left: 90px;
-  padding-right: 90px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .container-with-svg {
@@ -146,7 +147,6 @@ body {
 }
 
 .profession {
-  /* margin-bottom: 5px; */
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
@@ -160,19 +160,19 @@ body {
 }
 
 .descriptiont {
-  margin-top: 34px;
+  margin-top: 20px;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
 }
 
 .info-container {
-  margin-bottom: 34px;
+  margin-bottom: 20px;
 }
 
 .about-me-title {
   /* max-width: 500px; */
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -223,7 +223,7 @@ body {
 }
 
 .projects-container {
-  margin-bottom: 30px;
+  margin-bottom: var(--main-margin);
 }
 
 .profession-title {
@@ -252,7 +252,7 @@ body {
 
 .profession-duties {
   margin-top: 14px;
-  margin-bottom: 30px;
+  margin-bottom: var(--main-margin);
 }
 
 .profession-duties-icon {
@@ -271,12 +271,12 @@ body {
 /*       Educations       */
 
 .education-container {
-  margin-bottom: 30px;
+  margin-bottom: var(--main-margin);
 }
 
 .education-title {
   /* max-width: 500px; */
-  margin-bottom: 30px;
+  margin-bottom: var(--main-margin);
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
